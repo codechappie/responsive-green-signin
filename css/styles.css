@@ -207,6 +207,9 @@ html{
         height: 100%!important;
         min-height: 100%!important;
     }
+    .svg_shape{
+        display: none;
+    }
 }
 @media screen and (max-width: 768px){
     .signin_main_container{
@@ -224,9 +227,7 @@ html{
         align-self: center!important;
         margin-bottom: 20px;
     }
-    .svg_shape{
-        display: none;
-    }
+    
 }
 
 @media screen and (max-height: 600px){
